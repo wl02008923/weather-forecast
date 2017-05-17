@@ -74,7 +74,6 @@ $(document).ready(function(){
         var thisCity = $(this).find("#cityData").text();
         getData(thisCity);
         change = true;
-        $(".temperature").text(thisCity);
         console.log(thisCity);
         $(".dropdown-toggle").html(thisCity);
     })
